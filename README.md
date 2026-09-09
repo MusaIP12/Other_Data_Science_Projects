@@ -4,20 +4,9 @@
 This repository contains a collection of data science and machine learning projects that explore various aspects of predictive modelling, classification, natural language processing (NLP), and medical diagnostics. Each project is written in Python using popular libraries such as Pandas, NumPy, Scikit-learn, XGBoost, and more. Below is a summary of the top projects, including two key healthcare-focused projects.
 
 ## Top Projects:
-
-
-## 1. **Eskom Residual Energy Demand Forecasting**
-
-- **Objective**: Forecast South Africa’s residual electricity demand to optimize Eskom’s resource management and load shedding strategies.
-
-- **Models**: Random Forest, XGBoost, CatBoost Regressors
-
-- **Best Model Accuracy:** CatBoost Regressor with R² score of 0.9988
-
-- **Description:** This project leverages machine learning to forecast residual energy demand based on Eskom’s energy generation and demand data. Using feature engineering and model evaluation techniques, the **CatBoost Regressor** 
-    was identified as the most effective model, accurately capturing demand patterns influenced by renewable energy sources, imports, exports, and dispatchable generation. 
+ 
     
-### 2. **COVID-19 Classification Using Audio Features**
+### 1. **COVID-19 Classification Using Audio Features**
    - **Objective**: Classify COVID-19 cases based on audio recordings (cough, breath, and speech).
    - **Models**:
      - **Random Forest**: 
@@ -27,7 +16,7 @@ This repository contains a collection of data science and machine learning proje
    - **Description**: This project applies audio signal processing techniques to extract features (MFCC, ZCR, spectral features) from audio recordings to detect COVID-19. It demonstrates the use of machine learning models in healthcare by utilizing non-invasive audio data for classification.
 
 
-### 3. **Brain Tumor Image Classification**
+### 2. **Brain Tumor Image Classification**
    - **Objective**: Detect and classify brain tumors from medical images using machine learning.
    - **Model**: Convolutional Neural Network (CNN)
      - Accuracy: 98.75%
